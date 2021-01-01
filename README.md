@@ -13,6 +13,7 @@ Parameters:
 ---
 
 `public double PIDLoop(double currentPos)`
+
 Returns the process variable.  The process varaible is directly fed to the feedback system (Ex. Motor).  Should be called every loop.
 
 Parameters:
@@ -20,6 +21,7 @@ Parameters:
 ---
 
 `public void setSetPoint(double sp)`
+
 Updates the set point.
 
 Parameters:
@@ -27,6 +29,7 @@ Parameters:
 ---
 
 `public void updateConst(double P, double I, double D)`
+
 Updates the PID constants.
 
 Parameters:
